@@ -1,0 +1,54 @@
+Header{
+
+    background-color:  #242323;
+    color: white;
+    padding: 100px;
+    margin: 20px;
+}
+
+h1{
+    font-family: "Sweet Hipster";
+    font-size: 150px;
+    word-spacing: 2px;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+}
+
+aside{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: small;
+    display: flex;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: -1px -1px 6px dimgray ;
+    background-color:  #f1948a;
+    flex: 1;
+    color: whitesmoke;
+}
+aside > p{
+    text-align: right;
+    font-size: x-small;
+    padding: 10px;
+}
+
+aside>h4{
+    padding: 10px;
+    margin: 10PX;
+}
+
+body{
+    background-color: #f2d7d5;
+}
+
+@font-face{
+    font-family: "Sweet Hipster";
+    src: url('../Files/Sweet-Hipster.ttf') format('truetype')
+}
